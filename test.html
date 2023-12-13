@@ -43,9 +43,11 @@
     <label for="password">Password:</label>
     <input type="password" id="password" name="password" required><br><br>
 
-    <input type="submit" value="Login">
+    <input type="submit" value="Login" id="loginButton">
 </form>
 
 <script>
-    // Your JavaScript code goes here
+    document.getElementById("loginButton").addEventListener("click", function () {
+        // Your event handling code goes here
+    });
 </script>
